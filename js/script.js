@@ -42,6 +42,8 @@ const METALS = [
 
 // Apply For Loop to Access Object Arrays
 for (let i=0; i<METALS.length; i++) {
+
+    // Make the name of the element (e.g. Sodium) bold
     txt += `<strong>${METALS[i]["name"]}</strong> has the symbol 
     ${METALS[i]["symbol"]}.  Its atomic number is ${METALS[i]["atomic_number"]}. <br>`;
 }
